@@ -25,18 +25,39 @@ http://www.tooplate.com/view/2089-meteor
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <style>
-           .dropdown-toggle:active, .open .dropdown-toggle {
-        background:inherit !important; 
-        box-shadow: none;
-       
-    }
+           .modal:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+          
+        .modal-dialog {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 25%;
+        }
+          
+        .modal .modal-content {
+            padding: 20px 20px 20px 20px;
+            -webkit-animation-name: modal-animation;
+            -webkit-animation-duration: 0.5s;
+            animation-name: modal-animation;
+            animation-duration: 0.5s;
+        }
+
+    @media only screen and (max-width: 1180px) {
+  .pushdownlogo {
+    margin-top: 25px;
+  }
+}
 
 
         </style>
     </head>
 
 <body>
-    <div class="header">
+    <div class="header" style="background-color: wheat;">
         <div class="container">
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">

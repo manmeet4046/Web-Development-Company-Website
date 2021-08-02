@@ -1,11 +1,6 @@
 @include('layouts.partials.header')
 
-<div class="" style="position:absolute; top:25%;left:38%;200px;z-index:999"><div><img src="{{ asset('assets/img/ses-logo.png') }}"/>
-    </div>
-
-  
-
-</div>      
+      
     <section class="cd-hero">
         <ul class="cd-hero-slider autoplay">  
         <!-- 
@@ -14,29 +9,47 @@
         -->
             <li class="selected first-slide">
                 <div class="cd-full-width">
-     <br/>     <br/>     <br/>  <br/>               
-<h2 style="color:white;"><b>Makes it simple,But significant.</b></h2>
+                 <div class="tm-slide-content-div slide-caption pushdownlogo">
+                        <span><img src="{{ asset('assets/img/ses-logo.png') }}"/></span>
+                        <h2>Makes it simple,But significant.</h2>
+                                                
+                    </div> 
+
               
                 </div> <!-- .cd-full-width -->
             </li>
 
             <li class="second-slide">
                 <div class="cd-full-width">
-                    <br/>     <br/>     <br/>  <br/>   
-                    <h2 style="color:black;padding-top: 0px;" ><span style=" background-color: white;"><b>Looking forward with creative mindset.</b></span></h2>                   
+                    <div class="tm-slide-content-div slide-caption pushdownlogo">
+                        <span><img src="{{ asset('assets/img/ses-logo.png') }}"/></span>
+                        <h2>Looking forward with creative mindset.</h2>
+                                                
+                    </div> 
+
+                  
                  </div> <!-- .cd-full-width -->
             </li>
 
             <li class="third-slide">
                 <div class="cd-full-width">
-                    <br/>     <br/>     <br/> <br/>    
-                    <h2 style="color:white;padding:15px"><span style="background-color:black ;"><b>Best and reliable web design solutions.</b></span></h2>                         
+                      <div class="tm-slide-content-div slide-caption pushdownlogo">
+                        <span><img src="{{ asset('assets/img/ses-logo.png') }}"/></span>
+                        <h2>Best and reliable web design solutions.</h2>
+                                                
+                    </div>  
+                                           
                 </div> <!-- .cd-full-width -->
             </li>
              <li class="fourth-slide">
                 <div class="cd-full-width">
-                    <br/>     <br/>     <br/> <br/>    
-                    <h2 style="color:black;padding:15px"><span style="background-color:white ;"><b>Your support and our concernment.</b></span></h2>                         
+                       <div class="tm-slide-content-div slide-caption pushdownlogo">
+                        <span><img src="{{ asset('assets/img/ses-logo.png') }}"/></span>
+                        <h2>our trust and our concernment.</h2>
+                                                
+                    </div>  
+
+                                             
                 </div> <!-- .cd-full-width -->
             </li>
         </ul> <!-- .cd-hero-slider -->

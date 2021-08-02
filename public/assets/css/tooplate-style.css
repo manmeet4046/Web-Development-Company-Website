@@ -272,13 +272,13 @@ ul.cd-hero-slider {
 }
 
 .first-service:hover .icon {
-	background-image: url(../img/first-service-white.png);
+	background-image: url(../img/first-service-main.png);
 }
 
 .second-service .icon {
 	background-image: url(../img/second-service-main.png);
 	height: 32px;
-	width: 22px;
+	width: 32px;
 	display: inline-block;
 }
 
@@ -294,7 +294,7 @@ ul.cd-hero-slider {
 }
 
 .third-service:hover .icon {
-	background-image: url(../img/third-service-white.png);
+	background-image: url(../img/third-service-main.png);
 }
 
 .fourth-service .icon {
@@ -305,6 +305,46 @@ ul.cd-hero-slider {
 }
 
 .fourth-service:hover .icon {
+	background-image: url(../img/fourth-service-white.png);
+}
+.fifth-service .icon {
+	background-image: url(../img/fourth-service-main.png);
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+}
+
+.fifth-service:hover .icon {
+	background-image: url(../img/fourth-service-white.png);
+}
+.sixth-service .icon {
+	background-image: url(../img/fourth-service-main.png);
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+}
+
+.sixth-service:hover .icon {
+	background-image: url(../img/fourth-service-white.png);
+}
+.seventh-service .icon {
+	background-image: url(../img/fourth-service-main.png);
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+}
+
+.seventh-service:hover .icon {
+	background-image: url(../img/fourth-service-white.png);
+}
+.eighth-service .icon {
+	background-image: url(../img/fourth-service-main.png);
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+}
+
+.eighth-service:hover .icon {
 	background-image: url(../img/fourth-service-white.png);
 }
 
