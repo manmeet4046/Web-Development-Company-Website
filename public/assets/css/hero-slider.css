@@ -219,6 +219,9 @@ Single slide style
 .cd-hero-slider li:nth-of-type(3) {
   background-image: url(../img/slide_03.jpg);
 }
+.cd-hero-slider li:nth-of-type(4) {
+  background-image: url(../img/slide_04.jpg);
+}
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
   position: absolute;

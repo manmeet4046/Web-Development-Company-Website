@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Meteor HTML CSS Template</title>
+        <title>SE-Sestems</title>
 <!--
 
 Template 2089 Meteor
@@ -31,6 +31,7 @@ http://www.tooplate.com/view/2089-meteor
        
     }
 
+
         </style>
     </head>
 
@@ -44,6 +45,7 @@ http://www.tooplate.com/view/2089-meteor
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+
                     </button>
                     <a href="#" class="navbar-brand scroll-top">
                         <div class="logo"></div>
@@ -52,9 +54,9 @@ http://www.tooplate.com/view/2089-meteor
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#" class="scroll-top">Home</a></li>
-                          <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
-                        <li><a href="#" class="scroll-link" data-id="what-we-do">About Us</a></li>
+                        <li><a href="#" class="scroll-top"><b>Home</b></a></li>
+                          <li><a href="#" class="scroll-link" data-id="services"><b>Services</b></a></li>
+                        <li><a href="#" class="scroll-link" data-id="what-we-do"><b>About Us</b></a></li>
                         {{--<li class="dropdown" >
                           <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Services <span class="caret"></span></a>
                           <ul class="dropdown-menu ">
@@ -69,12 +71,12 @@ http://www.tooplate.com/view/2089-meteor
                           </ul>
                         </li> --}}
                       
-                        <li><a href="#" class="scroll-link" data-id="portfolio">Our Work</a></li>
-                        <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio"><b>Our Work</b></a></li>
+                        <li><a href="#" class="scroll-link" data-id="blog"><b>Blog</b></a></li>
                         
                         
                         
-                        <li><a href="#" class="scroll-link" data-id="contact">Contact Us</a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact"><b>Contact Us</b></a></li>
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->

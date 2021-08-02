@@ -120,7 +120,7 @@ p {
 }
 .navbar-brand .logo{
 	margin-top: 22px;
-	background-image: url(../img/white_logo.png);
+	background-image: url(../img/logosmall.png);
 	display: inline-block;
 	width: 125px;
 	height: 32px;
@@ -128,7 +128,7 @@ p {
 }
 .header.active .navbar-brand .logo{
 	margin-top: 22px;
-	background-image: url(../img/black_logo.png);
+	background-image: url(../img/logosmall.png);
 	display: inline-block;
 	width: 125px;
 	height: 32px;
@@ -200,9 +200,10 @@ bootstrap.min.css:5
 
 .slide-caption {
 	color: #fff;
+	margin-top:-100px;
 }
 
-.slide-caption span {
+.slide-captm-slideion span {
 	font-size: 14px;
 	text-transform: uppercase;
 }

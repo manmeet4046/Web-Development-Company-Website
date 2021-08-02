@@ -1,6 +1,11 @@
 @include('layouts.partials.header')
 
+<div class="" style="position:absolute; top:25%;left:38%;200px;z-index:999"><div><img src="{{ asset('assets/img/ses-logo.png') }}"/>
+    </div>
 
+  
+
+</div>      
     <section class="cd-hero">
         <ul class="cd-hero-slider autoplay">  
         <!-- 
@@ -9,40 +14,29 @@
         -->
             <li class="selected first-slide">
                 <div class="cd-full-width">
-                    <div class="tm-slide-content-div slide-caption">
-                        <span>Introduction to</span>
-                        <h2>sagacious E-systems</h2>
-                        <p>Phasellus interdum tortor sem. Quisque sit amet condimentum sem. Phasellus luctus, felis sit amet pulvinar luctus.</p>
-                        <div class="primary-button">
-                            <a href="#" class="scroll-link" data-id="about">Discover More</a>
-                        </div>                           
-                    </div>                   
+     <br/>     <br/>     <br/>  <br/>               
+<h2 style="color:white;"><b>Makes it simple,But significant.</b></h2>
+              
                 </div> <!-- .cd-full-width -->
             </li>
 
             <li class="second-slide">
                 <div class="cd-full-width">
-                    <div class="tm-slide-content-div slide-caption">
-                        <span>We Are Perfect Staffs</span>
-                        <h2>Our Team Members</h2>
-                        <p>Donec dolor ipsum, laoreet nec metus non, tempus elementum massa. Donec non elit rhoncus, vestibulum enim sed, rutrum arcu.</p>
-                        <div class="primary-button">
-                            <a href="#">Read More</a>
-                        </div>                        
-                    </div>                     
-                </div> <!-- .cd-full-width -->
+                    <br/>     <br/>     <br/>  <br/>   
+                    <h2 style="color:black;padding-top: 0px;" ><span style=" background-color: white;"><b>Looking forward with creative mindset.</b></span></h2>                   
+                 </div> <!-- .cd-full-width -->
             </li>
 
             <li class="third-slide">
                 <div class="cd-full-width">
-                    <div class="tm-slide-content-div slide-caption">
-                        <span>Design is a hobby</span>
-                        <h2>Responsive Layout</h2>
-                        <p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat.</p>
-                        <div class="primary-button">
-                            <a href="#">View Details</a>
-                        </div>                           
-                    </div>                         
+                    <br/>     <br/>     <br/> <br/>    
+                    <h2 style="color:white;padding:15px"><span style="background-color:black ;"><b>Best and reliable web design solutions.</b></span></h2>                         
+                </div> <!-- .cd-full-width -->
+            </li>
+             <li class="fourth-slide">
+                <div class="cd-full-width">
+                    <br/>     <br/>     <br/> <br/>    
+                    <h2 style="color:black;padding:15px"><span style="background-color:white ;"><b>Your support and our concernment.</b></span></h2>                         
                 </div> <!-- .cd-full-width -->
             </li>
         </ul> <!-- .cd-hero-slider -->
@@ -75,40 +69,80 @@
                     <div class="service-item first-service">
                         <div class="icon"></div>
                         <h4>Web Development</h4>
-                        <p>Meteor is free HTML website template by Tooplate. Feel free to use this layout for your project.</p>
+                        <p>Meteor is free HTML website template by Tooplate. Feel free to use this layout for your project. <!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item second-service">
                         <div class="icon"></div>
                         <h4>Digital Marketing</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item third-service">
                         <div class="icon"></div>
                         <h4>Search Engine Optmization</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item fourth-service">
                         <div class="icon"></div>
                         <h4>Pay Per Click</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item fourth-service">
+            <!-- 2nd row for Services Starts-->
+            <hr>
+            <div class="row mt-5">
+                <div class="col-md-3"><div class="service-item fourth-service">
                         <div class="icon"></div>
-                        <h4>Pay Per Click</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
-                    </div>
-                </div>
+                        <h4>Social Media Maintenance</h4>
+                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
+                    </div></div>
+                <div class="col-md-3"><div class="service-item fourth-service">
+                        <div class="icon"></div>
+                        <h4>Software Devlopment</h4>
+                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
+                    </div></div>
+                <div class="col-md-3"><div class="service-item fourth-service">
+                        <div class="icon"></div>
+                        <h4>CMS+E-commerce Devlopment</h4>
+                        <p>We offer customized,
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
+                    </div></div>
+                <div class="col-md-3"><div class="service-item fourth-service">
+                        <div class="icon"></div>
+                        <h4>Migration & Upgradation</h4>
+                        <p>Migrate or upgrade your existing websites and applications to advanced versions with utmost ease and without any downtime or loss of data.
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  read more...
+</button></p>
+                    </div></div>
+
             </div>
         </div>
     </div>
@@ -118,8 +152,16 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="left-text">
-                        <h4>New offers just arrived,<br>Get it now and take profit.</h4>
-                        <p>Gochujang pitchfork post-ironic hammock kombucha fanny pack cronut. Raw denim chicharrones semiotics af truffaut pinterest. Distillery letterpress authentic adaptogen. Meditation schlitz humblebrag photo booth celiac cliche chartreuse.<br><br>Pinterest 90's wolf celiac dreamcatcher listicle deep v semiotics. Intelligentsia literally meggings trust fund put a bird on it. Shoreditch crucifix artisan pug shaman twee. Health goth bicycle rights retro iPhone.</p>
+                        <h2><strong>About Us</strong></h2>
+                       <p>Our company <i>Established In-2019<i>
+                           
+
+
+
+
+
+
+                       </p>
                         <ul>
                             <li>
                                 <div class="white-button">
@@ -397,7 +439,24 @@
         </div>
     </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 @include("layouts.partials.footer")
 
 
