@@ -226,6 +226,7 @@ ul.cd-hero-slider {
 
 /* WHAT WE DO */
 
+
 .about {
 	background-color: #f4f4f4;
 	padding: 80px 0px;
@@ -283,7 +284,7 @@ ul.cd-hero-slider {
 }
 
 .second-service:hover .icon {
-	background-image: url(../img/second-service-white.png);
+	background-image: url(../img/second-service-main.png);
 }
 
 .third-service .icon {
@@ -305,49 +306,64 @@ ul.cd-hero-slider {
 }
 
 .fourth-service:hover .icon {
-	background-image: url(../img/fourth-service-white.png);
+	background-image: url(../img/fourth-service-main.png);
 }
 .fifth-service .icon {
-	background-image: url(../img/fourth-service-main.png);
+	background-image: url(../img/fifth-service-main.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .fifth-service:hover .icon {
-	background-image: url(../img/fourth-service-white.png);
+	background-image: url(../img/fifth-service-main.png);
 }
 .sixth-service .icon {
-	background-image: url(../img/fourth-service-main.png);
+	background-image: url(../img/sixth-service-main.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .sixth-service:hover .icon {
-	background-image: url(../img/fourth-service-white.png);
+	background-image: url(../img/sixth-service-main.png);
 }
 .seventh-service .icon {
-	background-image: url(../img/fourth-service-main.png);
+	background-image: url(../img/seventh-service-main.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .seventh-service:hover .icon {
-	background-image: url(../img/fourth-service-white.png);
+	background-image: url(../img/seventh-service-main.png);
 }
 .eighth-service .icon {
-	background-image: url(../img/fourth-service-main.png);
+	background-image: url(../img/eighth-service-main.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .eighth-service:hover .icon {
-	background-image: url(../img/fourth-service-white.png);
+	background-image: url(../img/eighth-service-main.png);
+}
+/*about us*/
+#what-we-do .section-heading .line-dec 
+{
+	background-color: #fff;
+}
+#what-we-do .section-heading  {
+	margin-bottom: 60px;
+}
+#what-we-do .section-heading h4 {
+	color: #fff;
 }
 
+#what-we-do{
+	text-align: center;
+  
+}
 
 #what-we-do {
 	background-image: url(../img/what-we-do-bg.png);
@@ -358,7 +374,7 @@ ul.cd-hero-slider {
 	color: #fff;
 }
 
-#what-we-do .right-image img {
+#what-we-do .right-image  {
 	width: 100%;
 	overflow: hidden;
 }
@@ -386,7 +402,7 @@ ul.cd-hero-slider {
 
 /* PORTFOLIO */
 
-#portfolio {
+#Our-Work {
 	text-align: center;
 }
 
@@ -1006,4 +1022,49 @@ body.lb-disable-scrolling {
 	footer ul {
 		float: none;
 	}
+}
+
+
+/* -----------------------
+ bgcolors and Text
+---------------------------*/
+.bg-white{
+	background-color: white;
+}
+.bg-black{
+	background-color: black;
+}
+.bg-maroon{
+	background-color: maroon;
+}
+.bg-teal{
+	background-color: teal;
+}
+.bg-grey{
+	background-color: grey;
+}
+.bg-orange{
+	background-color: orange;
+}
+.bg-wheat{
+	background-color: wheat;
+}
+/* text color */
+.text-white{
+	color: white;
+}
+.text-black{
+	color: black;
+}
+.text-maroon{
+	color: maroon;
+}
+.text-teal{
+	color: teal;
+}
+.text-grey{
+	color: grey;
+}
+.text-orange{
+	color: orange;
 }

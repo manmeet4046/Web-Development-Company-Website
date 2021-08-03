@@ -34,8 +34,8 @@
             <li class="third-slide">
                 <div class="cd-full-width">
                       <div class="tm-slide-content-div slide-caption pushdownlogo">
-                        <span><img src="{{ asset('assets/img/ses-logo.png') }}"/></span>
-                        <h2>Best and reliable web design solutions.</h2>
+                        <span><img src="{{ asset('assets/img/ses-logo.png') }}"/>
+                        <h2>Best and reliable web design solutions.</h2></span>
                                                 
                     </div>  
                                            
@@ -45,7 +45,7 @@
                 <div class="cd-full-width">
                        <div class="tm-slide-content-div slide-caption pushdownlogo">
                         <span><img src="{{ asset('assets/img/ses-logo.png') }}"/></span>
-                        <h2>our trust and our concernment.</h2>
+                        <h2>Your trust and our concernment.</h2>
                                                 
                     </div>  
 
@@ -72,7 +72,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h4>What We Do</h4>
+                        <h4>Services</h4>
                         <div class="line-dec"></div>
                     </div>
                 </div>
@@ -82,114 +82,112 @@
                     <div class="service-item first-service">
                         <div class="icon"></div>
                         <h4>Web Development</h4>
-                        <p>Meteor is free HTML website template by Tooplate. Feel free to use this layout for your project. <!-- Button trigger modal -->
+                        <p>Additionally,<b>first-</b>with<strong>Website Development</strong>  you can Communicate with...  <!--your visitors effectively. Interacting with your audience is vital when it comes to generating more business. <b>second-</b> Improve your connectivity. A website will facilitate things like expanding your reach and attracting more visitors to your business. <b>third-</b> Prove your reliability. --><!-- Button trigger modal --></p>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item second-service">
                         <div class="icon"></div>
                         <h4>Digital Marketing</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+                        <p><strong>Digital Marketing</strong> actually allows smaller businesses the ability to hold a top...<!---ranking position. Digital marketing allows you to compete with your competition by exposing you to a wider audience on a much smaller advertising budget.--></p>
+             
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
-                    </div>
+</button>       </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item third-service">
                         <div class="icon"></div>
-                        <h4>Search Engine Optmization</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+                        <h4>SEO</h4>
+                        <p><strong>SEO</strong>(Search engine optimization) is important because: The majority of search engines users...<!-- (more than 65% – see graph below) are more likely to click on one of the top 5 suggestions in the search engine results pages (SERPS),So you can take advantage of this for traffic on your website and gain visitors to your web site or customers to your online store.--></p>
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item fourth-service">
                         <div class="icon"></div>
                         <h4>Pay Per Click</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+                        <p>To promote a website on the top rankings in a search engine result, certain methods...<!--are needed, and online advertisements are one of them. In the <strong>Pay Per Click</strong> method, the advertisers pay a certain fee each time to the user when one of their ads is clicked. It is the most professional way to draw the attention rather doing it in conventional way.--></p>
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div>
                 </div>
             </div>
             <!-- 2nd row for Services Starts-->
             <hr>
-            <div class="row mt-5">
-                <div class="col-md-3"><div class="service-item fourth-service">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12"><div class="service-item fifth-service">
                         <div class="icon"></div>
                         <h4>Social Media Maintenance</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+                        <p>With <strong>Social Media Maintenance</strong>, sharing is encouraged, which can have a huge impact...<!-- on your business. Social media is important because it makes it easy for your followers to share your promotions and content. And even if they don’t directly share your posts, they can speak positively about you and direct traffic to your social accounts or website.--></p>
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div></div>
-                <div class="col-md-3"><div class="service-item fourth-service">
+                <div class="col-md-3 col-sm-6 col-xs-12"><div class="service-item sixth-service">
                         <div class="icon"></div>
                         <h4>Software Devlopment</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.
+                        <p><strong>Software Development</strong> brings your business to new heights of integration. It...<!-- allows your company to be accessible from almost anywhere via smartphone or computer. It improves sales and service. The way your customers experience your business is very important.--></p>
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div></div>
-                <div class="col-md-3"><div class="service-item fourth-service">
+                <div class="col-md-3 col-sm-6 col-xs-12"><div class="service-item seventh-service">
                         <div class="icon"></div>
-                        <h4>CMS+E-commerce Devlopment</h4>
-                        <p>We offer customized,
+                        <h4>CMS+E-commerce</h4>
+                        <p>It will boost your marketing strategies and thus can also increase the traffic on...<!-- your <strong></strong>E-commerce Website.</strong> Most e-commerce websites have detailed information of their products along with the images & videos for product demonstration.A <strong>Contant Management System (CMS)</strong> is software that enables ecommerce shop owners to create, edit and publish digital website content without writing any code.--> </p>
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div></div>
-                <div class="col-md-3"><div class="service-item fourth-service">
+                <div class="col-md-3 col-sm-6 col-xs-12"><div class="service-item eighth-service">
                         <div class="icon"></div>
                         <h4>Migration & Upgradation</h4>
-                        <p>Migrate or upgrade your existing websites and applications to advanced versions with utmost ease and without any downtime or loss of data.
+                        <p><strong>Migration</strong> is crucial for ensuring the safety and privacy of your company’s..<!-- data and<strong>Upgradation</strong> important for your website to bieng up-to-date because visitors see it as a reflection of your organisation.--> </p>
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   read more...
-</button></p>
+</button>
                     </div></div>
 
             </div>
         </div>
     </div>
 
-    <div id="what-we-do" >
+   <div id="what-we-do" class="page-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="left-text">
-                        <h2><strong>About Us</strong></h2>
-                       <p>Our company <i>Established In-2019<i>
-                           
-
-
-
-
-
-
-                       </p>
-                        <ul>
-                            <li>
-                                <div class="white-button">
-                                    <a href="#" class="scroll-link" data-id="portfolio">Discover More</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="primary-button">
-                                    <a href="#">Purchase Now</a>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h4>About us</h4>
+                        <div class="line-dec"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+            </div>
+                            
+                       <pre> <h2><i>Established In-2019<i><h2>
+                       <h3> A Web Designing company that's 
+                        committed to making a difference.<h3>
+             We’re a close-knit team of strategists, designers, technologists,
+              and who draw energy from our clients’ commitment to social 
+              impact—and who make the most out of every opportunity
+               that each partnership presents to make a difference.
+                </pre>
+                       
+                       </div>
+                      </div> 
+                   </div>
+                   </div>
+                      </div> 
+                    </div>
+                </div>
+                <div class="col-md-12">
                     <div class="right-image">
                         <img src="img/what-we-do-right-image.png" alt="">
                     </div>
@@ -201,7 +199,7 @@
 
     <div id="portfolio" class="page-section">
         <div class="content-wrapper">
-            <div class="inner-container container">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
@@ -315,7 +313,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h4>Our Blog Posts</h4>
+                        <h4>Our Blog</h4>
                         <div class="line-dec"></div>
                     </div>
                 </div>
@@ -458,14 +456,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Web Devlopment</h4>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body">Additionally,<strong>first-</strong>with website development you can Communicate with your visitors effectively. Interacting with your audience is vital when it comes to generating more business. <strong>second-</strong> Improve your connectivity. A website will facilitate things like expanding your reach and attracting more visitors to your business. <strong>third-</strong> Prove your reliability.<!-- Button trigger modal -->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="">Close</button>
+        </div>
       </div>
     </div>
   </div>
@@ -520,3 +517,15 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+<!--kahi bua bhul na jaye 
+    fufa ji ke liye shirts
+    apna ultrasound karana hai
+    BHU jana hai 
+    card se xplo ke liye bed magana hai-->

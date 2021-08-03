@@ -57,7 +57,7 @@ http://www.tooplate.com/view/2089-meteor
     </head>
 
 <body>
-    <div class="header" style="background-color: wheat;">
+    <div class="header bg-wheat">
         <div class="container">
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -74,30 +74,17 @@ http://www.tooplate.com/view/2089-meteor
                 </div>
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#" class="scroll-top"><b>Home</b></a></li>
-                          <li><a href="#" class="scroll-link" data-id="services"><b>Services</b></a></li>
-                        <li><a href="#" class="scroll-link" data-id="what-we-do"><b>About Us</b></a></li>
-                        {{--<li class="dropdown" >
-                          <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Services <span class="caret"></span></a>
-                          <ul class="dropdown-menu ">
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Software Development</a></li>
-                            <li><a href="#">Digital Marketing</a></li>
-                            <li><a href="#">Search Engine Optimization</a></li>
-                            <li><a href="#">Pay Per Click</a></li>
-                            <li><a href="#">Social Media Marketing</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                          </ul>
-                        </li> --}}
-                      
-                        <li><a href="#" class="scroll-link" data-id="portfolio"><b>Our Work</b></a></li>
-                        <li><a href="#" class="scroll-link" data-id="blog"><b>Blog</b></a></li>
+                    <ul class="nav navbar-nav ">
+                        <li ><a href="#" class="scroll-top"><b class="text-black">Home</b></a></li>
+                          <li><a href="#" class="scroll-link" data-id="services"><b class="text-black">Services</b></a></li>
+                        <li><a href="#" class="scroll-link" data-id="what-we-do"><b class="text-black">About Us</b></a></li>
+                       
+                        <li><a href="#" class="scroll-link" data-id="portfolio"><b class="text-black">Our Work</b></a></li>
+                        <li><a href="#" class="scroll-link" data-id="blog"><b class="text-black">Blog</b></a></li>
                         
                         
                         
-                        <li><a href="#" class="scroll-link" data-id="contact"><b>Contact Us</b></a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact"><b class="text-black">Contact Us</b></a></li>
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
