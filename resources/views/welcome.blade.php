@@ -84,7 +84,7 @@
                         <h4>Web Development</h4>
                         <p>Additionally,<b>first-</b>with<strong>Website Development</strong>  you can Communicate with...  <!--your visitors effectively. Interacting with your audience is vital when it comes to generating more business. <b>second-</b> Improve your connectivity. A website will facilitate things like expanding your reach and attracting more visitors to your business. <b>third-</b> Prove your reliability. --><!-- Button trigger modal --></p>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal1">
   read more...
 </button>
                     </div>
@@ -95,7 +95,7 @@
                         <h4>Digital Marketing</h4>
                         <p><strong>Digital Marketing</strong> actually allows smaller businesses the ability to hold a top...<!---ranking position. Digital marketing allows you to compete with your competition by exposing you to a wider audience on a much smaller advertising budget.--></p>
              
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal2">
   read more...
 </button>       </div>
                 </div>
@@ -104,7 +104,7 @@
                         <div class="icon"></div>
                         <h4>SEO</h4>
                         <p><strong>SEO</strong>(Search engine optimization) is important because: The majority of search engines users...<!-- (more than 65% – see graph below) are more likely to click on one of the top 5 suggestions in the search engine results pages (SERPS),So you can take advantage of this for traffic on your website and gain visitors to your web site or customers to your online store.--></p>
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal3">
   read more...
 </button>
                     </div>
@@ -114,7 +114,7 @@
                         <div class="icon"></div>
                         <h4>Pay Per Click</h4>
                         <p>To promote a website on the top rankings in a search engine result, certain methods...<!--are needed, and online advertisements are one of them. In the <strong>Pay Per Click</strong> method, the advertisers pay a certain fee each time to the user when one of their ads is clicked. It is the most professional way to draw the attention rather doing it in conventional way.--></p>
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal4">
   read more...
 </button>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="icon"></div>
                         <h4>Social Media Maintenance</h4>
                         <p>With <strong>Social Media Maintenance</strong>, sharing is encouraged, which can have a huge impact...<!-- on your business. Social media is important because it makes it easy for your followers to share your promotions and content. And even if they don’t directly share your posts, they can speak positively about you and direct traffic to your social accounts or website.--></p>
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal5">
   read more...
 </button>
                     </div></div>
@@ -135,7 +135,7 @@
                         <div class="icon"></div>
                         <h4>Software Devlopment</h4>
                         <p><strong>Software Development</strong> brings your business to new heights of integration. It...<!-- allows your company to be accessible from almost anywhere via smartphone or computer. It improves sales and service. The way your customers experience your business is very important.--></p>
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal6">
   read more...
 </button>
                     </div></div>
@@ -143,7 +143,7 @@
                         <div class="icon"></div>
                         <h4>CMS+E-commerce</h4>
                         <p>It will boost your marketing strategies and thus can also increase the traffic on...<!-- your <strong></strong>E-commerce Website.</strong> Most e-commerce websites have detailed information of their products along with the images & videos for product demonstration.A <strong>Contant Management System (CMS)</strong> is software that enables ecommerce shop owners to create, edit and publish digital website content without writing any code.--> </p>
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal7">
   read more...
 </button>
                     </div></div>
@@ -151,7 +151,7 @@
                         <div class="icon"></div>
                         <h4>Migration & Upgradation</h4>
                         <p><strong>Migration</strong> is crucial for ensuring the safety and privacy of your company’s..<!-- data and<strong>Upgradation</strong> important for your website to bieng up-to-date because visitors see it as a reflection of your organisation.--> </p>
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal8">
   read more...
 </button>
                     </div></div>
@@ -422,17 +422,61 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                      <form id="contact" action="" method="post">
-                        <div class="col-md-6">
+                        @if(Session::has('success'))
+                        <div class="alert alert-success">
+                            {{ Session::get('success') }}
+                            @php
+                                Session::forget('success');
+                            @endphp
+                        </div>
+                        @endif
+                        <form method="POST" action="{{ route('contact-form.store') }}" id="contact">
+                            @csrf
+                            <div class="col-md-6">
                           <fieldset>
-                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                            <div class="form-group">
+                                <strong>Name:</strong>
+                                <input type="text" name="name" class="form-control" placeholder="Name" value="{{ old('name') }}">
+                                @if ($errors->has('name'))
+                                    <span class="text-danger">{{ $errors->first('name') }}</span>
+                                @endif
+                            </div>
                           </fieldset>
                         </div>
                         <div class="col-md-6">
                           <fieldset>
-                            <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                            <div class="form-group">
+                                <strong>Email:</strong>
+                                <input type="text" name="email" class="form-control" placeholder="Email" value="{{ old('email') }}">
+                                @if ($errors->has('email'))
+                                    <span class="text-danger">{{ $errors->first('email') }}</span>
+                                @endif
+                            </div>
                           </fieldset>
                         </div>
+                        <div class="col-md-6">
+                            <fieldset>
+                              <div class="form-group">
+                                  <strong>Phone:</strong>
+                                  <input type="text" name="phone" class="form-control" placeholder="Phone" value="{{ old('phone') }}">
+                                  @if ($errors->has('phone'))
+                                      <span class="text-danger">{{ $errors->first('phone') }}</span>
+                                  @endif
+                              </div>
+                            </fieldset>
+                          </div>
+                        <div class="col-md-6">
+                            <fieldset>
+                              <div class="form-group">
+                                  <strong>Subject:</strong>
+                                  <input type="text" name="subject" class="form-control" placeholder="Subject" value="{{ old('subject') }}">
+                                  @if ($errors->has('subject'))
+                                      <span class="text-danger">{{ $errors->first('subject') }}</span>
+                                  @endif
+                              </div>
+                            </fieldset>
+                          </div>
+                        
                         <div class="col-md-12">
                           <fieldset>
                             <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
@@ -450,22 +494,7 @@
         </div>
     </div>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Web Devlopment</h4>
-      </div>
-      <div class="modal-body">Additionally,<strong>first-</strong>with website development you can Communicate with your visitors effectively. Interacting with your audience is vital when it comes to generating more business. <strong>second-</strong> Improve your connectivity. A website will facilitate things like expanding your reach and attracting more visitors to your business. <strong>third-</strong> Prove your reliability.<!-- Button trigger modal -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
+    @include("layouts.partials.frontmodal")
 </div>
 @include("layouts.partials.footer")
 

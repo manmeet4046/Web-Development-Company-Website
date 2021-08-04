@@ -45,13 +45,30 @@ http://www.tooplate.com/view/2089-meteor
             animation-name: modal-animation;
             animation-duration: 0.5s;
         }
+      
+        @media screen and (max-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: top;
+    content: " ";
+    height: 25%;
 
+  }
+  .modal-dialog {
+            display: inline-block;
+            vertical-align: top;
+            margin-left:0%;
+        }
+ .bar{
+     margin-top:100px;
+ }
+}
     @media only screen and (max-width: 1180px) {
   .pushdownlogo {
     margin-top: 25px;
   }
-}
 
+} 
 
         </style>
     </head>
@@ -86,6 +103,12 @@ http://www.tooplate.com/view/2089-meteor
                         
                         <li><a href="#" class="scroll-link" data-id="contact"><b class="text-black">Contact Us</b></a></li>
                     </ul>
+
+                    <ul class="nav navbar-nav navbar-right bar" style="position:relative;top:-100px;right:0px">
+                       
+                        <li><a href="{{ route('login') }}"><b class="text-black">login</b></a></li>
+                        <li><a href="{{ route('register') }}"><b class="text-black">Register</b></a></li>
+                      </ul>
                 </div>
                 <!--/.navbar-collapse-->
             </nav>

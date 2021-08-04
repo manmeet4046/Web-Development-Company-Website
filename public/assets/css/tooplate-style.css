@@ -178,8 +178,10 @@ bootstrap.min.css:5
         padding-left: 0;
     }
     .navbar-nav {
-        float: right;
+        /*float: right;*/
+		float: none;
     }
+	
 }
 @media (max-width: 480px) {
     .page-section h1 {
